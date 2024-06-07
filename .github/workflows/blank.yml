@@ -46,4 +46,4 @@ jobs:
       run: mvn clean package
 
     - name: Deploy to CloudHub 2.0
-      run: mvn mule:deploy -Danypoint.username=$ANYPOINT_USERNAME -Danypoint.password=$ANYPOINT_PASSWORD -Danypoint.environment=$ANYPOINT_ENVIRONMENT
+      run: mvn mule:deploy -Danypoint.username=$ANYPOINT_USERNAME -Danypoint.password=$ANYPOINT_PASSWORD -Danypoint.environment=$ANYPOINT_ENVIRONMENT -Dclient.id=$CLIENT_ID
