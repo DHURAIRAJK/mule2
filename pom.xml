@@ -32,7 +32,7 @@
 						<provider>MC</provider>
 						<environment>Sandbox</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>${muleVersion}</muleVersion>
+						<muleVersion>${mule.maven.plugin.version}</muleVersion>
 						<username>kdhurairaj1999</username>
 						<password>Mymule@19</password>
 						<applicationName>mule2</applicationName>
